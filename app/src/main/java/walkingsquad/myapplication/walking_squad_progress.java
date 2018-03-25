@@ -3,6 +3,7 @@ package walkingsquad.myapplication;
 /**
  * Created by harsh on 25-03-2018.
  */
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -28,6 +29,24 @@ public class walking_squad_progress extends AppCompatActivity {
             progressStatus = 40;
             pb.setProgress(progressStatus);
         }
+    }
+
+    public void history(View v) {
+        Intent intent = new Intent(getApplicationContext(), Main4Activity.class);
+        startActivity(intent);
+
+    }
+
+    public void home(View v) {
+        Intent intent = new Intent(getApplicationContext(), walking_squad_progress.class);
+        startActivity(intent);
+
+    }
+
+    public void about(View v) {
+        Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
+        startActivity(intent);
+
     }
 }
 

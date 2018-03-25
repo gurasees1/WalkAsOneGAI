@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180sp"
+    android:layout_marginBottom="40sp"
+    android:layout_marginStart="30sp"
+    android:layout_marginEnd="50sp"
+    android:layout_marginTop="50sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingTop="5sp"
+    android:paddingBottom="5sp"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout"
+    android:onClick="onAddNewClicked"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background = "#00ff00">
+
+        <TextView
+            android:id="@+id/itemcount"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:singleLine="false"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:textSize="25sp"
+            android:ems="10"
+            android:text="10/23/2017"
+            android:hint="" >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemcount1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:ems="10"
+                android:textSize="25sp"
+                android:layout_marginTop="60sp"
+                android:textAlignment="textEnd"
+                android:text="5 miles"
+                android:hint="" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/itemcount2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:ems="10"
+                android:textSize="25sp"
+                android:textAlignment="textEnd"
+                android:text="10,000"
+                android:hint="" >
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -92,29 +92,30 @@
             android:layout_alignParentBottom="true"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_alignParentTop="false"
-                android:layout_weight="0.33"
-                android:text="History"
-                android:textSize="18dp" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_weight="0.33"
-                android:text="Home"
-                android:textSize="18dp" />
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_weight="0.33"
-                android:text="About"
-                android:textSize="18dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="false"
+            android:onClick="history"
+            android:layout_weight="0.33"
+            android:text="History"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.33"
+            android:onClick="home"
+            android:text="Home"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.33"
+            android:onClick="about"
+            android:text="About"
+            android:textSize="18dp" />
         </LinearLayout>
     </LinearLayout>
