@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/taylorhazlett/Downloads/MyApplication5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\rahul\\StudioProjects\\WalkAsOneGAI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/taylorhazlett/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/27daebdf8c85cdd7ae3410a59b6124cc/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\rahul\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0-alpha1.aar\\95ab7ae6460bfdc25d6af063bfb1d3b0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/taylorhazlett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/e6a7420c1b68f479e5a27e88e1a2caac/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\rahul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\5c6de232ba9122335ea72155218ab5f2\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
