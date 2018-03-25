@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="530dp">
+
+        <TextView
+            android:id="@+id/editText5"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="102dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Total Steps"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_below="@+id/editText5"
+            android:text="1000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/editText6"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Steps Remaining"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/editText6"
+            android:layout_below="@+id/editText6"
+            android:text="2000"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/moon" />
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progressbar_states" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/progressBar4"
+            android:layout_below="@+id/progressBar4"
+            app:srcCompat="@drawable/rocket" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="false"
+                android:layout_weight="0.33"
+                android:text="History"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.33"
+                android:text="Home"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.33"
+                android:text="About"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
